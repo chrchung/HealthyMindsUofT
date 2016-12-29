@@ -32,6 +32,24 @@
    		display:none;
    	}
 
+   	.conference {
+    	display: none;
+   	}
+
+   	.events {
+   		display:none;
+   	}
+
+
+   	.home {
+    	display: none;
+   	}
+
+   	.news {
+   		display:none;
+   	}
+
+
     .resources {
     	display: none;
    	}
@@ -119,7 +137,7 @@
 			    <a onclick="goTo('events')" class="item">Upcoming Events</a>
 			    <a onclick="goTo('news')" class="item">Newsletter</a>
 			   	<a onclick="goTo('resources')" class="item">Resources</a>
-			   	<a onclick="goTo('resources')" class="item">Conference</a>
+			   	<a onclick="goTo('conference')" class="item">Conference</a>
 			    <a onclick="goTo('team')" class="item">The Team</a>
 <!-- 			   	<a class="item">Contact Us</a>
  -->			</div>
@@ -481,7 +499,7 @@ Founded in 1918, The Canadian Mental Health Association (CMHA) is a national cha
 
 	<script>
 	var goTo = function(c) {
-		var pages = ['home', 'events', 'news', 'resources', 'team'];
+		var pages = ['home', 'conference', 'events', 'news', 'resources', 'team'];
 
 		for (var i = 0; i < pages.length; i ++) {
 			if (c != pages[i]) {
