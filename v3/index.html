@@ -75,6 +75,36 @@
     width: 100%;
   }
 
+  #team img {
+      object-fit: cover;
+      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+      height: 250px;
+  }
+
+  #team img:hover {
+      object-fit: cover;
+      filter: none;
+      -webkit-filter: grayscale(0%);
+      height: 250px;
+  }
+
+  .member {
+      width: 20%;
+      margin: 2%;
+      display: inline-block;
+    }
+
+  @media only screen and (max-width:700px) {
+      .member {
+      width: 100%;
+      margin: 1%;
+      display: inline-block;
+  }
+
+
+
+
   /*    .issue {
           position: relative;
           width: 100%;
@@ -149,7 +179,7 @@
           <a class="page-scroll" href="#resources">Resources</a>
         </li>
         <li>
-          <a class="page-scroll" href="#resources">The Team</a>
+          <a class="page-scroll" href="#team">The Team</a>
         </li>
 
    <!--      <li>
@@ -503,6 +533,204 @@
     </div>
   </div>
   </div>
+  </div>
+</section>
+
+<section id="team" class="bg-blue">
+  <div class="container">
+    <h1 class="bebas ">The Team</h1>
+
+    <div class="member">
+      <div class="ui fluid card">
+        <div class="image">
+          <img src="/images/avatar/large/daniel.jpg">
+        </div>
+        <div class="content">
+          <div class="header">Nicole Provan</div>
+          <span class="text">President</span>
+        </div>
+      </div>
+    </div>
+    <div class="member">
+      <div class="ui fluid card">
+        <div class="image">
+          <img src="/images/avatar/large/helen.jpg">
+        </div>
+        <div class="content">
+          <div class="header">Sunny Wang</div>
+          <span class="text">Vice President</span>
+        </div>
+      </div>
+    </div>
+    <div class="member">
+      <div class="ui fluid card">
+        <div class="image">
+          <img src="/images/avatar/large/elliot.jpg">
+        </div>
+        <div class="content">
+          <div class="header">Yola El-Dahr</div>
+          <span class="text">Secretary</span>
+        </div>
+      </div>
+    </div>
+    <div class="member">
+      <div class="ui fluid card">
+        <div class="image">
+          <img src="/images/avatar/large/daniel.jpg">
+        </div>
+        <div class="content">
+          <div class="header">Sarah Kamaluddin</div>
+          <span class="text">Secretary</span>
+        </div>
+      </div>
+    </div>
+    <div class="member">
+      <div class="ui fluid card">
+        <div class="image">
+          <img src="team_mugs/christina.jpg">
+        </div>
+        <div class="content">
+          <div class="header">Christina Chung</div>
+          <span class="text">Executive of Promotions and Social Media</span>
+        </div>
+      </div>
+    </div>
+    <div class="member">
+      <div class="ui fluid card">
+        <div class="image">
+          <img src="team_mugs/jane.jpg">
+        </div>
+        <div class="content">
+          <div class="header">Jane Huang</div>
+          <span class="text">Executive of Promotions and Social Media</span>
+        </div>
+      </div>
+    </div>
+    <div class="member">
+      <div class="ui fluid card">
+        <div class="image">
+          <img src="/images/avatar/large/daniel.jpg">
+        </div>
+        <div class="content">
+          <div class="header">Kylin Zhang</div>
+          <span class="text">Executive of Promotions and Social Media</span>
+        </div>
+      </div>
+    </div>
+    <div class="member">
+      <div class="ui fluid card">
+        <div class="image">
+          <img src="/images/avatar/large/helen.jpg">
+        </div>
+        <div class="content">
+          <div class="header">Yin Kot</div>
+          <span class="text">Treasurer</span>
+        </div>
+      </div>
+    </div>
+    <div class="member">
+      <div class="ui fluid card">
+        <div class="image">
+          <img src="/images/avatar/large/elliot.jpg">
+        </div>
+        <div class="content">
+          <div class="header">Christian Schoug</div>
+          <span class="text">Treasurer</span>
+        </div>
+      </div>
+    </div>
+    <div class="member">
+      <div class="ui fluid card">
+        <div class="image">
+          <img src="/images/avatar/large/daniel.jpg">
+        </div>
+        <div class="content">
+          <div class="header">Hasan Shafqat</div>
+          <span class="text">Conference Director</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="member">
+      <div class="ui fluid card">
+        <div class="image">
+          <img src="team_mugs/bushra.jpg">
+        </div>
+        <div class="content">
+          <div class="header">Bushra Ahmed</div>
+          <span class="text">Volunteer Chair and College Representative</span>
+        </div>
+      </div>
+    </div>
+    <div class="member">
+      <div class="ui fluid card">
+        <div class="image">
+          <img src="/images/avatar/large/elliot.jpg">
+        </div>
+        <div class="content">
+          <div class="header">Kathrina De Villa</div>
+          <span class="text">Research Chair</span>
+        </div>
+      </div>
+    </div>
+    <div class="member">
+      <div class="ui fluid card">
+        <div class="image">
+          <img src="/images/avatar/large/daniel.jpg">
+        </div>
+        <div class="content">
+          <div class="header">N/A</div>
+          <span class="text">Workshop Chair</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="member">
+      <div class="ui fluid card">
+        <div class="image">
+          <img src="team_mugs/sua.png">
+        </div>
+        <div class="content">
+          <div class="header">Sua Cho</div>
+          <span class="text">Promotional Material Design and Distribution Chair</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="member">
+      <div class="ui fluid card">
+        <div class="image">
+          <img src="/images/avatar/large/elliot.jpg">
+        </div>
+        <div class="content">
+          <div class="header">Alex Mulligan</div>
+          <span class="text">College Representative Coordinator</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="member">
+      <div class="ui fluid card">
+        <div class="image">
+          <img src="/images/avatar/large/helen.jpg">
+        </div>
+        <div class="content">
+          <div class="header">Thaddea Chua</div>
+          <span class="text">Outreach Material Designing Volunteer</span>
+        </div>
+      </div>
+    </div>
+    <div class="member">
+      <div class="ui fluid card">
+        <div class="image">
+          <img src="/images/avatar/large/elliot.jpg">
+        </div>
+        <div class="content">
+          <div class="header">Marisa Balleani</div>
+          <span class="text">Material Distribution Volunteer</span>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
